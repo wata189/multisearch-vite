@@ -7,16 +7,19 @@
       "orderNumber":0,
       "sites":[
         {
+          "id":"book-1",
           "name":"カーリル",
           "url":"https://calil.jp/search?q=@SEARCH_WORD@",
           "orderNumber":0
         },
         {
+          "id":"book-2",
           "name":"BookWalker",
           "url":"https://bookwalker.jp/search/?qcat=&word=@SEARCH_WORD@",
           "orderNumber":1
         },
         {
+          "id":"book-3",
           "name":"駿河屋",
           "url":"https://www.suruga-ya.jp/search?category=&search_word=@SEARCH_WORD@&is_marketplace=0",
           "orderNumber":2
@@ -30,6 +33,7 @@
       "orderNumber":1,
       "sites":[
         {
+          "id":"game-1",
           "name":"駿河屋",
           "url":"https://www.suruga-ya.jp/search?category=&search_word=@SEARCH_WORD@&is_marketplace=0",
           "orderNumber":0
@@ -43,16 +47,19 @@
       "orderNumber":2,
       "sites":[
         {
+          "id":"food-1",
           "name":"コープデリ",
           "url":"https://weekly.coopdeli.jp/shelf/search.html?kwd=@SEARCH_WORD@&act=",
           "orderNumber":0
         },
         {
+          "id":"food-2",
           "name":"楽天西友ネットスーパー",
           "url":"https://sm.rakuten.co.jp/search?keyword=@SEARCH_WORD@",
           "orderNumber":1
         },
         {
+          "id":"food-3",
           "name":"ダイエーネットスーパー",
           "url":"https://netsuper.daiei.co.jp/0754/item/item.php?classL=6&classS=1&key_list=all&key_input=@SEARCH_WORD@",
           "orderNumber":2
@@ -66,36 +73,43 @@
       "orderNumber":99999999,
       "sites":[
         {
+          "id":"other-1",
           "name":"メルカリ",
           "url":"https://jp.mercari.com/search?keyword=@SEARCH_WORD@",
           "orderNumber":0
         },
         {
+          "id":"other-2",
           "name":"ラクマ",
           "url":"https://fril.jp/s?query=@SEARCH_WORD@",
           "orderNumber":1
         },
         {
+          "id":"other-3",
           "name":"PayPayフリマ",
           "url":"https://paypayfleamarket.yahoo.co.jp/search/@SEARCH_WORD@?page=1",
           "orderNumber":2
         },
         {
+          "id":"other-4",
           "name":"価格.com",
           "url":"https://kakaku.com/search_results/@SEARCH_WORD@/",
           "orderNumber":3
         },
         {
+          "id":"other-5",
           "name":"Amazon",
           "url":"https://www.amazon.co.jp/s?k=@SEARCH_WORD@&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=36DCYUP09CEHP&sprefix=@SEARCH_WORD@%2Caps%2C161&ref=nb_sb_noss_2",
           "orderNumber":4
         },
         {
+          "id":"other-6",
           "name":"楽天市場",
           "url":"https://search.rakuten.co.jp/search/mall/@SEARCH_WORD@/",
           "orderNumber":5
         },
         {
+          "id":"other-7",
           "name":"Yahooショッピング",
           "url":"https://shopping.yahoo.co.jp/search?first=1&tab_ex=commerce&fr=shp-prop&mcr=fe62acf8a1fa08ed1530ff25b8f3a205&ts=1682115341&sretry=1&p=@SEARCH_WORD@&sc_i=shp_pc_top_searchBox&area=13",
           "orderNumber":6

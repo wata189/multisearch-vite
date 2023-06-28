@@ -96,7 +96,7 @@ const multiSearch = () => {
           </q-toolbar-title>
 
         </q-toolbar>
-        <q-toolbar class="col-xs-7 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+        <q-toolbar class="col-xs-6 col-sm-5 col-md-5 col-lg-4 col-xl-4">
 
           <q-input
             v-model="searchWord"

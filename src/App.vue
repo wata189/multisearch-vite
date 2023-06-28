@@ -15,7 +15,7 @@ const searchWord = ref("");
           </q-toolbar-title>
 
         </q-toolbar>
-        <q-toolbar class="col-5">
+        <q-toolbar class="col-xs-8 col-sm-7 col-md-6 col-lg-5 col-xl-4">
           <q-input
             v-model="searchWord"
             label-color="white"

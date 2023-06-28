@@ -5,14 +5,36 @@
       "name":"本",
       "isDefaultChecked":false,
       "orderNumber":0,
-      "sites":[]
+      "sites":[
+        {
+          "name":"カーリル",
+          "url":"https://calil.jp/search?q=@SEARCH_WORD@",
+          "orderNumber":0
+        },
+        {
+          "name":"BookWalker",
+          "url":"https://bookwalker.jp/search/?qcat=&word=@SEARCH_WORD@",
+          "orderNumber":1
+        },
+        {
+          "name":"駿河屋",
+          "url":"https://www.suruga-ya.jp/search?category=&search_word=@SEARCH_WORD@&is_marketplace=0",
+          "orderNumber":2
+        }
+      ]
     },
     {
       "id":"game",
       "name":"ゲーム",
       "isDefaultChecked":false,
       "orderNumber":1,
-      "sites":[]
+      "sites":[
+        {
+          "name":"駿河屋",
+          "url":"https://www.suruga-ya.jp/search?category=&search_word=@SEARCH_WORD@&is_marketplace=0",
+          "orderNumber":0
+        }
+      ]
     },
     {
       "id":"food",
@@ -42,7 +64,43 @@
       "name":"その他",
       "isDefaultChecked":true,
       "orderNumber":99999999,
-      "sites":[]
+      "sites":[
+        {
+          "name":"メルカリ",
+          "url":"https://jp.mercari.com/search?keyword=@SEARCH_WORD@",
+          "orderNumber":0
+        },
+        {
+          "name":"ラクマ",
+          "url":"https://fril.jp/s?query=@SEARCH_WORD@",
+          "orderNumber":1
+        },
+        {
+          "name":"PayPayフリマ",
+          "url":"https://paypayfleamarket.yahoo.co.jp/search/@SEARCH_WORD@?page=1",
+          "orderNumber":2
+        },
+        {
+          "name":"価格.com",
+          "url":"https://kakaku.com/search_results/@SEARCH_WORD@/",
+          "orderNumber":3
+        },
+        {
+          "name":"Amazon",
+          "url":"https://www.amazon.co.jp/s?k=@SEARCH_WORD@&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=36DCYUP09CEHP&sprefix=@SEARCH_WORD@%2Caps%2C161&ref=nb_sb_noss_2",
+          "orderNumber":4
+        },
+        {
+          "name":"楽天市場",
+          "url":"https://search.rakuten.co.jp/search/mall/@SEARCH_WORD@/",
+          "orderNumber":5
+        },
+        {
+          "name":"Yahooショッピング",
+          "url":"https://shopping.yahoo.co.jp/search?first=1&tab_ex=commerce&fr=shp-prop&mcr=fe62acf8a1fa08ed1530ff25b8f3a205&ts=1682115341&sretry=1&p=@SEARCH_WORD@&sc_i=shp_pc_top_searchBox&area=13",
+          "orderNumber":6
+        }
+      ]
     }
   ]
 }

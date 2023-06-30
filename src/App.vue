@@ -96,7 +96,7 @@ const multiSearch = () => {
           </q-toolbar-title>
 
         </q-toolbar>
-        <q-toolbar class="col-xs-6 col-sm-5 col-md-5 col-lg-4 col-xl-4">
+        <q-toolbar class="col">
 
           <q-input
             v-model="searchWord"
@@ -107,7 +107,8 @@ const multiSearch = () => {
             @keydown.enter="multiSearch"
           >
             <template v-slot:append>
-              <q-btn @click="multiSearch" text-color="white" icon="search">検索</q-btn>
+              <q-btn @click="multiSearch" text-color="white" icon="search" class="gt-xs">検索</q-btn>
+              <q-btn @click="multiSearch" text-color="white" icon="search" class="lt-sm" dense round></q-btn>
             </template>
           </q-input>
         </q-toolbar>
